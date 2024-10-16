@@ -1,0 +1,20 @@
+#ratings {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  border: 2px solid black;
+  padding: 1rem;
+  width: 450px;
+  margin: 100px auto;
+}
+
+/*  ☆★ */
+.empty::before {
+  content: '☆';
+  cursor: pointer;
+}
+
+.filled::before {
+  content: '★';
+  cursor: pointer;
+}
