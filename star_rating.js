@@ -13,6 +13,8 @@ const initialQuestions = [
   }
 ];
 
+
+
 const questions = JSON.parse(localStorage.getItem("storeQuestions")) || initialQuestions;
 console.log(questions, ' questions');
 
